@@ -32,4 +32,4 @@ jobs:
       - name: Compile Java application
         run: |
           mkdir -p out
-          javac -d out -sourcepath src src/registration_login/Login.java src/registration_login/Registration_Login.java
+          javac -d out registration_login/Login.java registration_login/Registration_Login.java
